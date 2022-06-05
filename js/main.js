@@ -1254,7 +1254,7 @@ function CPreloader() {
         h.y = CANVAS_HEIGHT / 2 - 180;
         k.addChild(h);
         m = new createjs.Shape;
-        m.graphics.beginFill("rgba(0,0,0,0.01)").drawRect0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+        m.graphics.beginFill("rgba(0,0,0,0.01)").drawRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
         k.addChild(m);
         h.mask = m;
         q = s_oSpriteLibrary.getSprite("progress_bar");
