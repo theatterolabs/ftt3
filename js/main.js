@@ -3366,7 +3366,7 @@ function CTeamChoose() {
         G.regX = .5 * t.width;
         G.regY = .5 * t.height;
         s_oStage.addChild(H);
-        H.y = 12;
+        H.y = 8;
         y = this.createText(TEXT_SELECT_OPPONENT_TEAM, 22, 200).container;
         y.x = CANVAS_WIDTH_HALF + 130;
         y.y = 304;
